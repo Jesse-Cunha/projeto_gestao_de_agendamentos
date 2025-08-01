@@ -1,0 +1,15 @@
+{
+  "name": "pmv-si-2024-2-pe1-t2-t2_gp01",
+  "version": "1.0.0",
+  "description": "Projeto web eixo 1 - Gestão de Agendamentos",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grupo 1 Eixo 1",
+  "license": "ISC",
+  "type": "module"
+}

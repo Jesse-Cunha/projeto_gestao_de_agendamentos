@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel = "stylesheet" href = "./styles/style-tela-login.css">
+</head>
+<body>
+
+    <div class = "login-container">
+
+        <div class = "login-esquerda">
+
+            <div class = "login-esquerda-topo">
+
+                <p class = "login-esquerda-texto"> 
+
+                    Preencha os campos ao lado para entrar no sistema com sua conta :)
+                </p>
+            
+            </div>
+
+            <div class = "login-esquerda-rodape">
+
+                <img class= "logo" src="./assets/logo.png" alt="Logo da Barbearia Det's" >
+
+            </div>
+
+        </div>
+
+        <div class = "login-direita">
+           
+            <form class = "login-direita-formulario">
+
+                <fieldset class = "quadro-campos">
+                    <div class = "login-direita-formulario-campo">
+
+                        <label for = "email" > E-mail</label>
+                        <input type = "email" name = "nome" id = "email" required>
+
+                    </div>
+
+                    <div class = "login-direita-formulario-campo">
+
+                        <label for = "senha"> Senha:</label>
+                        <input type = "password" name = "senha" id = "senha" required>
+
+                    </div>
+
+            </fieldset>
+
+                <div class = "login-direita-formulario-botao">
+
+                    <button type = "submit" id = "botao-login"> Entrar </button>
+
+                </div>
+
+
+            </form>
+            
+
+        </div>
+    </div>  
+
+    <script src="./js/script-tela-login.js" type = "module"></script>
+
+</body>
+</html>

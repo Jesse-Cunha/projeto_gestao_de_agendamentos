@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinião do cliente</title>
+    <link rel="stylesheet" href="./styles/style-opiniao.css">
+</head>
+<body>
+    <!-- Referência ao arquivo JS na subpasta "scripts" -->
+    <script src="./js/script-tela-opiniao.js" type = "module" defer></script>
+ 
+    <div class="opiniao-container">
+ 
+        <div class="opiniao-esquerda">
+ 
+            <div class="opiniao-esquerda-topo">
+                <p class="opiniao-esquerda-texto"> Escolha o funcionário que você deseja avaliar:</p>
+                <form id="form-lista-funcionarios" class="lista-funcionarios">
+                    <label for="funcionarios">Clique para selecionar</label>
+                    <select name="funcionarios" id="funcionarios" required>
+                        <option value="" data-default disabled selected></option>
+                        <option>Funcionário 1</option>
+                        <option>Funcionário 2</option>
+                        <option>Funcionário 3</option>
+                        <option>Funcionário 4</option>
+                    </select>
+                </form>
+            </div>
+ 
+            <div class="opiniao-esquerda-rodape">
+                <img class="logo" src="./assets/logo.png" alt="Logo da Barbearia Det's">
+            </div>
+        </div>
+ 
+        <div class="opiniao-direita">
+            <form id="formulario-satisfacao" class="formulario-satisfacao-do-cliente">
+                <fieldset class="quadro-satisfacao">
+                    <div class="campos-satisfacao">
+                        <label>Pontualidade</label>
+                        <div class="pontuacoes">
+                            <label>1</label>
+                            <input type="radio" name="pontualidade" value="1">
+                            <label>2</label>
+                            <input type="radio" name="pontualidade" value="2">
+                            <label>3</label>
+                            <input type="radio" name="pontualidade" value="3">
+                            <label>4</label>
+                            <input type="radio" name="pontualidade" value="4">
+                            <label>5</label>
+                            <input type="radio" name="pontualidade" value="5" checked>
+                        </div>
+                    </div>
+ 
+                    <div class="campos-satisfacao">
+                        <label>Educação</label>
+                        <div class="pontuacoes">
+                            <label>1</label>
+                            <input type="radio" name="educacao" value="1">
+                            <label>2</label>
+                            <input type="radio" name="educacao" value="2">
+                            <label>3</label>
+                            <input type="radio" name="educacao" value="3">
+                            <label>4</label>
+                            <input type="radio" name="educacao" value="4">
+                            <label>5</label>
+                            <input type="radio" name="educacao" value="5" checked>
+                        </div>
+                    </div>
+ 
+                    <div class="campos-satisfacao">
+                        <label>Qualidade do corte</label>
+                        <div class="pontuacoes">
+                            <label>1</label>
+                            <input type="radio" name="qualidade-do-corte" value="1">
+                            <label>2</label>
+                            <input type="radio" name="qualidade-do-corte" value="2">
+                            <label>3</label>
+                            <input type="radio" name="qualidade-do-corte" value="3">
+                            <label>4</label>
+                            <input type="radio" name="qualidade-do-corte" value="4">
+                            <label>5</label>
+                            <input type="radio" name="qualidade-do-corte" value="5" checked>
+                        </div>
+                    </div>
+                </fieldset>
+ 
+                <fieldset class="quadro-opiniao-do-cliente">
+                    <label>Conte-nos mais sobre sua experiência na Det's:</label><br>
+                    <textarea name="opiniao" rows="8" cols="80"></textarea>
+                </fieldset>
+ 
+                <button id="btn-enviar-opiniao" type="button" class="satisfacao-do-cliente-botao">Enviar opinião</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

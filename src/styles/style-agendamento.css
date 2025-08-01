@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.agendamento-container {
+
+    display: flex;
+    gap: 0px; 
+    height: 100vh;
+
+}
+.agendamento-esquerda {
+
+    background-color: #1E1E1E;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+
+.agendamento-esquerda-topo {
+
+    background-color: #1E1E1E;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+
+.agendamento-esquerda-texto {
+
+    color: #FFFFFF;
+    padding: 15% 15% 10% 15%;
+    font-size: 40px;
+    text-align: center;
+   
+}
+
+.lista-funcionarios{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.lista-funcionarios label {
+
+    color:white;
+    font-size: 1.4em;
+}
+#funcionarios{
+
+    margin-bottom: 0.2em;
+    color:black;
+    font-size: 1.4em;
+
+}
+
+.agendamento-esquerda-rodape {
+
+    display: flex;
+    background-color: #1E1E1E;
+    width: 100%;
+    justify-content: flex-start;
+  
+}
+
+.logo {
+
+    max-width: 20%;
+    padding: 0% 0% 2% 2%;
+
+}
+
+
+.agendamento-direita {
+
+    background-color: #FFFFFF;
+    width:60%;
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+}
+
+.formulario-agendamento{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 240px;
+    padding: 10% 0% 5% 0%;
+    
+}
+
+.quadro-agendamento {
+
+    display:flex;
+    align-items: flex-start;
+    gap: 40px;
+    border: none;
+}
+
+.data-e-horario{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.data-e-horario label {
+
+    font-size: 1.4em;
+    text-align: center;
+    width: 220px;
+    font-weight: 500;
+}
+
+.data-e-horario input {
+
+    font-size: 1.4em;
+    text-align: center;
+    width: 220px;
+    font-weight: 500;
+
+}
+
+.data-e-horario input:focus {
+
+    background-color: rgb(240,240,240);
+}    
+
+.escolher-serviços {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid rgb(0,0,0);
+    padding: 0% 0% 2% 0%;
+
+}
+
+.checkbox-serviços {
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    text-align: left;
+    width: 200px;
+    font-weight: 400;
+    gap:inherit;
+
+    
+}
+
+.rotulo-escolher-serviços {
+
+    font-size: 1.4em;
+    text-align: center;
+    width: 220px;
+    font-weight: 500;
+
+}
+
+.formulario-agendamento button {
+
+    font-size: 25px;
+    color: white;
+    background-color: black ;
+    text-align: center;
+    padding: 1% 3% 1% 3%; 
+    width: 200px;
+    height: 50px;
+}
+
+.formulario-agendamento button:hover {
+
+    background-color: rgb(50,50,50);
+    box-shadow: rgba(0,0,0,0.2);
+}
+
+

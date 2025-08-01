@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar informações</title>
+    <link rel = "stylesheet" href = "./styles/style-editar-informacoes.css">
+</head>
+<body>
+
+    <div class = "editar-informacoes-container">
+
+        <div class = "editar-informacoes-esquerda">
+
+            <div class = "editar-informacoes-esquerda-topo">
+
+                <p class = "editar-informacoes-esquerda-texto"> Preencha os campos ao lado para editar as informações do seu perfil. </p>
+
+            </div>
+
+            <div class = "editar-informacoes-esquerda-rodape">
+
+                <img class= "logo" src="./assets/logo.png" alt="Logo da Barbearia Det's" >
+
+            </div>
+
+        </div>
+
+        <div class = "editar-informacoes-direita">
+            <form class = "editar-direita-formulario">
+
+                <fieldset class = "direita_form">
+                    <div class = "editar-direita-formulario-campo">
+
+                        <label for = "nome" > Nome:</label>
+                        <input type = "text" name = "nome" id = "nome" required>
+
+                    </div>
+
+                    <div class = "editar-direita-formulario-campo">
+
+                        <label for = "sobrenome" > Sobrenome:</label>
+                        <input type = "text" name = "sobrenome" id = "sobrenome" required>
+
+                    </div>
+
+                    <div class = "editar-direita-formulario-campo">
+
+                        <label for = "telefone" > Telefone:</label>
+                        <input type = "tel" name = "telefone" id = "telefone" required>
+
+                    </div>
+
+                    <div class = "editar-direita-formulario-campo">
+
+                        <label for = "email" > E-mail:</label>
+                        <input type = "email" name = "email" id = "email" required>
+
+                    </div>
+
+                    <div class = "editar-direita-formulario-campo">
+
+                        <label for = "usuario" > Nome de usuário:</label>
+                        <input type = "text" name = "usuario" id = "usuario" required>
+
+                    </div>
+            </fieldset>
+
+            <div class = "editar-direita-formulario-botao">
+
+                <button type = "submit" id="botao-editar-info"> Editar </button>
+
+            </div>
+        </div>
+    </div>  
+
+    <script src="./js/script-editar-informacoes.js" type="module"> </script>
+</body>
+</html>

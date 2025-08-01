@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.login-container {
+
+    display: flex;
+    gap: 0px; 
+    height: 100vh;
+
+}
+.login-esquerda {
+
+    background-color: #1E1E1E;
+    width:40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5.3%;
+    
+}
+
+.login-esquerda-topo {
+
+    align-content: center;
+    width: 100%;
+    background-color: #1E1E1E;
+}
+
+.login-esquerda-texto {
+
+    color: #FFFFFF;
+    padding: 15% 15%;
+    font-size: 50px;
+    text-align: center;
+   
+}
+
+.login-esquerda-rodape {
+
+    width: 100%;
+    background-color: #1E1E1E;
+    justify-content: flex-start;
+    gap: 0%;
+
+}
+
+.logo {
+
+    max-width: 20%;
+    padding: 0% 0% 0% 2%;
+
+}
+
+.login-direita {
+
+    background-color: #FFFFFF;
+    width:60%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    padding: 10% 0% 0% 0%;
+}
+
+.login-direita-formulario {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;  
+
+}
+
+.quadro-campos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border: none;
+}
+
+.login-direita-formulario-campo label {
+
+    margin-bottom: 0.2em;
+    color:black;
+    display:block;
+    font-size: 1.8em;
+
+}
+
+.login-direita-formulario-campo input {
+
+    padding: 0.2em;
+    border: 2px solid rgb(0,0,0);
+    box-shadow: 2 px 2 px 2 px rgba(0,0,0,0.2);
+    display:block;
+    width: 30.0em;
+    height: 2.0em;
+    font-size:0.9em;
+}
+
+.login-direita-formulario-campo input:focus {
+
+    background: rgb(230,230,230);
+
+}
+
+.login-direita-formulario-botao button{
+
+    font-size: 25px;
+    color: white;
+    background-color: black ;
+    text-align: center;
+    padding: 1% 3% 1% 3%; 
+    width: 180px;
+    height: 40px;
+
+}
+
+.login-direita-formulario-botao button:hover {
+
+    background-color: rgb(40,40,40);
+    box-shadow: rgba(0,0,0,0.2);
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.meus-cortes-container {
+
+    display: flex;
+    gap: 0px; 
+    height:100vh;
+
+}
+.meus-cortes-esquerda {
+
+    background-color: #1E1E1E;
+    width:50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2%;
+      
+}
+
+.meus-cortes-direita {
+
+    background-color: #FFFFFF;
+    width:50%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    
+}
+
+.meus-cortes-direita-logo {
+
+    padding: 5% 0%;
+    max-width: 30%;
+}
+
+.meus-cortes-direita-icone {
+
+    padding: 0%;
+    width: 20%;
+}
+
+.titulo-lista {
+
+    color: #FFFFFF;
+    font-family: "Gruppo", sans-serif;
+    font-size: 30px;
+    padding: 5% 0%;
+
+}
+
+.container-lista {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.item-da-lista {
+
+    padding: 2%;
+    text-align: justify;
+    list-style: solid circle;
+    list-style-position:inside;
+    color: #FFFFFF;
+}
+
+.lista div li p{
+
+    display: inline;
+    color:#FFFFFF;
+    font-size: 1.2rem;
+}
+
+.label {
+
+    padding: 0% 0% 0% 0%;
+}
+
+.dado {
+
+    padding: 0% 2% 0% 0%;
+}
+
+.label-dado {
+
+    padding: 0% 2% 0% 0%;
+}

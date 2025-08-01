@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova senha</title>
+    <link rel = "stylesheet" href = "./styles/style-nova-senha.css">
+</head>
+<body>
+    
+    <div class = "nova-senha-container">
+
+        <div class = "nova-senha-esquerda">
+
+            <div class = "nova-senha-esquerda-topo">
+
+                <p class = "nova-senha-esquerda-texto"> Preencha os campos ao lado para redefinir sua senha. </p>
+
+            </div>
+
+            <div class = "nova-senha-esquerda-rodape">
+
+                <img class= "logo" src="./assets/logo.png" alt="Logo da Barbearia Det's" >
+
+            </div>
+
+        </div>
+
+       
+                
+                <div class = "nova-senha-direita">
+
+                    <form class = "nova-senha-direita-formulario">
+
+                        <fieldset class = "quadro-campos">
+           
+                        <div class = "nova-senha-direita-formulario-campo">
+
+                            <label for = "senha"> Digite sua nova senha:</label>
+                            <input type = "password" name = "senha" id = "senha" required>
+
+                        </div>
+
+                        <div class = "nova-senha-direita-formulario-campo">
+
+                            <label for = "repita-senha"> Repita sua nova senha:</label>
+                            <input type = "password" name = "repita-senha" id = "repita-senha" required>
+
+                        </div>
+
+                        </fieldset>
+
+                        <div class = "nova-senha-direita-formulario-botao">
+
+                            <button type = "submit" id="botao-editar-senha"> Confirmar </button>
+        
+                        </div>
+                    </form>
+                </div>
+          
+        </div>
+    </div>  
+
+    <script src="./js/script-editar-senha.js" type="module"> </script>
+
+</body>
+</html>

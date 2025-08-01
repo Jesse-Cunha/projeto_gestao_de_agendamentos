@@ -1,0 +1,56 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Web Application Template
+message: >-
+  Repositório padrão para o Eixo 1 - Projeto 1: Aplicações
+  Web da PUC Minas.
+type: software
+authors:
+  - given-names: Danilo César
+    family-names: Brito
+    email: danilocesarqtube@gmail.com
+    affiliation: PUC Minas
+  - given-names: Filipe Augusto
+    family-names: Correa Silva
+    email: facsilvs@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Jessé
+    family-names: Delgado da Costa de Souza e Cunha
+    email: jesse.delgado@hotmail.com
+    affiliation: PUC Minas
+  - given-names: Kauê
+    family-names: Cavalcanti Campos
+    email: kaue.kk10@gmail.com
+    affiliation: PUC Minas
+  - given-names: Michael Breno
+    family-names: de Oliveira Brito
+    email: michaelbreno.mb574@gmail.com
+    affiliation: PUC Minas
+contact:
+   - given-names: Nesley Jesus
+     family-names: Daher de Oliveira
+     role: Professor-orientador
+     email: nesdaher@sga.pucminas.br
+     affiliation: PUC Minas
+   - given-names: Hayala
+     family-names: Nepomuceno Curto
+     role: Professor-orientador
+     email: hayala@pucminas.br
+     affiliation: PUC Minas
+repository-code: >-
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-2-pe1-t2-t2_gp01
+abstract: >-
+  Esse projeto visa ao desenvolvimento de uma aplicação web que permita o agendamento de horários em uma barbearia situada no interior de Minas Gerais. Os horários, bem como o barbeiro que prestará o serviço, poderão ser escolhidos de maneira fácil e rápida pelos próprios clientes. O usuário poderá selecionar, ainda, entre os serviços de corte, sobrancelha e barba.
+
+  Além disso, o cliente poderá editar suas informações de perfil e modificar sua senha, em caso de necessidade. Também haverá exibição de seu histórico de agendamentos. Por fim, a aplicação disponibilizará um formulário no qual o usuário poderá avaliar o atendimento de cada funcionário, a fim de que seja possível uma melhoria contínua nos serviços prestados.
+
+keywords:
+  - Desenvolvimento Web
+  - HTML
+  - CSS
+  - JavaScript
+  - Template
+  - Gestão de Agendamentos
+date-released: '2024-12-07'
